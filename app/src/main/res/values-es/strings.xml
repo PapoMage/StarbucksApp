@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Starbucks App</string>
+    <string name="author_name">Pablo Fernandez</string>
+    <string name="info_app">En esta aplicación conoceras más sobre el café de Starbucks.</string>
+    <string name="username">Ingresá tu nombre:</string>
+    <string name="button_explore">Explorar</string>
+    <string name="welcome">Bienvenido a Starbucks App!</string>
+    <string name="welcome_user">Bienvenido</string>
+    <string name="title_coffee_list">Lista de los cafés mas comunes de Starbucks:</string>
+    <string name="error_name">Ups, hubo un error, porfavor ingresa tu nombre.</string>
+    <string name="welcome_user_toast">Bienvenido usuario</string>
+    <string name="info_author">Esta aplicación fue creada por Pablo Fernandez</string>
+</resources>

@@ -42,18 +42,18 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
                     int1.putExtras(b);
                     startActivity(int1);
 
-                Toast t= Toast.makeText(this,"Welcome user "+User,Toast.LENGTH_LONG);
+                Toast t= Toast.makeText(this,this.getResources().getString(R.string.welcome_user_toast)+" "+User,Toast.LENGTH_LONG);
                 t.show();
 
                 } else{
-                    Toast t=Toast.makeText(this,"Error, please enter name",Toast.LENGTH_SHORT);
+                    Toast t=Toast.makeText(this,this.getResources().getString(R.string.error_name),Toast.LENGTH_SHORT);
                     t.show();
                 }
                 break;
             case R.id.imageView:
-
-                Toast t= Toast.makeText(this,"This app was created by Pablo Fernandez",Toast.LENGTH_SHORT);
+                Toast t= Toast.makeText(this,this.getResources().getString(R.string.info_author),Toast.LENGTH_SHORT);
                 t.show();
+                break;
         }
     }
 }

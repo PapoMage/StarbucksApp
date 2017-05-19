@@ -23,7 +23,7 @@ public class CoffeeList extends AppCompatActivity {
 
         welcomeUser= (TextView) findViewById(R.id.welcomeUser);
         Bundle b2=getIntent().getExtras();
-        welcomeUser.setText("Welcome "+b2.getString("name"));
+        welcomeUser.setText(this.getResources().getString(R.string.welcome_user)+" "+b2.getString("name"));
 
         lvCoffee = (ListView) findViewById(R.id.lvCoffee);
         coffeeList = new ArrayList<String>();

@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">Starbucks App</string>
     <string name="author_name">Pablo Fernandez</string>
+    <string name="info_app">In this application you will know more about the Starbucks Coffee.</string>
+    <string name="username">Enter your name:</string>
+    <string name="button_explore">Explore</string>
+    <string name="welcome">Welcome to the Starbucks App!</string>
+    <string name="welcome_user">Welcome</string>
+    <string name="title_coffee_list">List of most common coffee on Starbucks:</string>
+    <string name="error_name">Error, please enter name</string>
+    <string name="welcome_user_toast">Welcome user </string>
+    <string name="info_author">This app was created by Pablo Fernandez</string>
 </resources>
